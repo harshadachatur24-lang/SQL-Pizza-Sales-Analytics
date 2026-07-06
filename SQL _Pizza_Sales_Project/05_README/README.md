@@ -179,9 +179,7 @@ An interactive Power BI dashboard was developed to visualize:
 
 # 📷 Dashboard Preview
 
-<p align="center">
-  <img src="04_Screenshots/Dashboard/Screenshot 2026-07-03 110946.png" width="100%">
-</p>
+  >![alt text](<Screenshot 2026-07-03 110946.png>)
 
 ---
 
