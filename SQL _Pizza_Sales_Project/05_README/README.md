@@ -6,9 +6,9 @@
 
 # 📌 Project Overview
 
-The Pizza Sales Analysis project is designed to analyze transactional sales data from a pizza restaurant using MySQL. The project demonstrates how SQL can be used to answer real-world business questions by performing data aggregation, joins, subqueries, window functions, and analytical queries.
+The Pizza Sales Analysis project is designed to analyze transactional sales data from a pizza restaurant using MySQL. This project demonstrates how SQL can be used to answer real-world business questions by performing data aggregation, joins, subqueries, window functions, and analytical queries.
 
-The goal is to transform raw sales data into meaningful business insights that can support better decision-making.
+The primary objective is to transform raw sales data into meaningful business insights that support data-driven decision-making.
 
 ---
 
@@ -95,7 +95,7 @@ Contains pizza names and categories.
 
 The database follows a relational structure.
 
-```
+```text
 orders
    │
    │ order_id
@@ -135,31 +135,19 @@ pizza_types
 
 # ❓ Business Questions Solved
 
-✔ Total number of orders placed
-
-✔ Total revenue generated
-
-✔ Highest-priced pizza
-
-✔ Most ordered pizza size
-
-✔ Top 5 ordered pizzas
-
-✔ Quantity sold by category
-
-✔ Orders by hour
-
-✔ Category-wise pizza distribution
-
-✔ Average pizzas ordered per day
-
-✔ Top 3 pizzas by revenue
-
-✔ Percentage contribution of each category
-
-✔ Cumulative revenue over time
-
-✔ Top pizzas within each category
+- ✔ Total number of orders placed
+- ✔ Total revenue generated
+- ✔ Highest-priced pizza
+- ✔ Most ordered pizza size
+- ✔ Top 5 ordered pizzas
+- ✔ Quantity sold by category
+- ✔ Orders by hour
+- ✔ Category-wise pizza distribution
+- ✔ Average pizzas ordered per day
+- ✔ Top 3 pizzas by revenue
+- ✔ Percentage contribution of each category
+- ✔ Cumulative revenue over time
+- ✔ Top pizzas within each category
 
 ---
 
@@ -181,85 +169,104 @@ An interactive Power BI dashboard was developed to visualize:
 - Total Orders
 - Total Pizzas Sold
 - Average Order Value
-- Top Selling Pizzas
 - Revenue by Category
 - Revenue by Pizza Size
 - Orders by Hour
 - Daily Sales Trend
+- Top Selling Pizza Types
 
 ---
 
 # 📷 Dashboard Preview
 
->![alt text](<Screenshot 2026-07-03 110946.png>)
-
-```
+<p align="center">
+  <img src="04_Screenshots/Dashboard/Screenshot 2026-07-03 110946.png" width="100%">
+</p>
 
 ---
 
 # 📁 Project Structure
 
-```
-SQL-Pizza-Sales-Project
-│
-├── Dataset
-│   ├── orders.csv
-│   ├── order_details.csv
-│   ├── pizzas.csv
-│   ├── pizza_types.csv
-│   └── pizza_sales_dashboard_data.csv
-│
-├── SQL
-│   └── pizza_sales_queries.sql
-│
-├── Dashboard
-│   ├── Pizza Sales Dashboard.pbix
-│   └── Dashboard.png
-│
-├── Screenshots
-│   ├── Query1.png
-│   ├── Query2.png
-│   ├── Query3.png
-│   └── Dashboard.png
-│
-└── README.md
-```
+| Folder / File | Description |
+|---------------|-------------|
+| 📂 01_Datasets | Contains all raw CSV datasets used for analysis. |
+| 📂 02_SQL | SQL queries written to solve business problems and generate insights. |
+| 📂 03_Dashboard | Power BI dashboard (.pbix) file with interactive visualizations. |
+| 📂 04_Screenshots | Dashboard preview and SQL query output screenshots. |
+| 📂 05_README | Additional documentation (if applicable). |
+| 📄 README.md | Complete project documentation and project overview. |
 
 ---
 
 # 🚀 Skills Demonstrated
 
-- SQL Query Writing
-- Relational Database Management
-- Data Cleaning
-- Data Aggregation
-- Data Analysis
-- Business Intelligence
-- Data Visualization
+### SQL Skills
+
+- Data Retrieval using SELECT
+- Data Filtering using WHERE
+- Sorting Data using ORDER BY
+- Grouping and Aggregation
+- Aggregate Functions
+- INNER JOIN
+- Subqueries
+- Window Functions
+- Date & Time Functions
+
+### Data Analysis Skills
+
+- Revenue Analysis
+- Sales Trend Analysis
+- Product Performance Analysis
+- Category-wise Analysis
+- KPI Calculation
+- Business Insight Generation
+
+### Business Intelligence Skills
+
 - Dashboard Development
+- Interactive Filtering
+- KPI Design
+- Data Visualization
+- Business Storytelling
+
+### Soft Skills
+
 - Analytical Thinking
 - Problem Solving
+- Business Understanding
+- Data Interpretation
 
 ---
 
-# 📌 Future Improvements
+# 📌 Future Enhancements
 
-- Build an interactive web dashboard using Streamlit.
+- Build an interactive Streamlit dashboard.
+- Connect Power BI directly with MySQL.
 - Automate report generation.
 - Perform customer segmentation.
 - Develop sales forecasting models using Machine Learning.
-- Deploy the project on the cloud.
+- Deploy the complete project on the cloud.
 
 ---
 
 # 👩‍💻 Author
 
-**Harshada K. Chatur**
+## Harshada K. Chatur
 
-B.Sc. Data Science Student
+**B.Sc. Data Science Student**
 
-Interested in Data Science, Machine Learning, SQL, Python, and Business Analytics.
+Passionate about Data Science, SQL, Python, Machine Learning, Data Analytics, and Business Intelligence.
+
+### Connect with Me
+
+- 📧 Email: harshadachatur24@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/harshada-chatur-1ab649418
+- 💻 GitHub: https://github.com/harshadachatur24-lang
 
 ---
 
-# ⭐ If you found this project useful, consider giving it a star on GitHub.
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Your support motivates me to build more real-world Data Science and Analytics projects.
